@@ -1,0 +1,24 @@
+flowchart LR
+    classDef default text-wrap:true,white-space:normal;
+    Web_User_Application_e8d15202(["Web User / Application / API"]) -->|Request HTTP/HTTPS| Request_Gateway_Auth_69898261[Request Gateway<br>- Authenticates user<br>- Validates input & format<br>- Applies rate limits<br>- Assigns request & session ID<br>- Enforces access control]
+    Request_Gateway_Auth_69898261 -->|Only safe, monitored<br>requests move forward| Security_Analysis_En_ed5530b0[Security Analysis Engine<br>- Checks auth & permissions<br>- Validates request structure<br>- Detects suspicious patterns<br>- Checks against security rules<br>- AI summarizes events & patterns]
+    Security_Analysis_En_ed5530b0 -->|Produces risk score + evidence| Decision_Policy_Engi_07013e64{Decision & Policy Engine<br>Uses rules + evidence to decide}
+    Decision_Policy_Engi_07013e64 -->|ALLOW<br>Valid, permitted, safe| Real_Server_approved_1ba8b884([Real Server<br>approved operation only])
+    Decision_Policy_Engi_07013e64 -->|DIVERT<br>Strong malicious indicators| Honeypot_Environment_2eab995c([Honeypot Environment<br>isolated, fake data])
+    Decision_Policy_Engi_07013e64 -->|REVIEW<br>Unclear - block or wait for admin| Block_Hold_for_revie_92f9a208(["Block / Hold<br>for review"])
+    Decision_Policy_Engi_07013e64 -->|DENY<br>Fails policy / unauthorized| Denied_no_access_da46d815([Denied<br>no access])
+    Real_Server_approved_1ba8b884 --> Monitoring_Response__2f30f71e["Monitoring & Response<br>- Log all requests & decisions<br>- Record evidence & behavior<br>- Track honeypot sessions<br>- Terminate / quarantine suspicious sessions<br>- Notify administrators<br>- Generate alerts"]
+    Honeypot_Environment_2eab995c --> Monitoring_Response__2f30f71e
+    Block_Hold_for_revie_92f9a208 --> Monitoring_Response__2f30f71e
+    Denied_no_access_da46d815 --> Monitoring_Response__2f30f71e
+    Monitoring_Response__2f30f71e -->|Feedback Loop<br>Use collected data to improve<br>rules and detection| Security_Analysis_En_ed5530b0
+style Block_Hold_for_revie_92f9a208 stroke:oklch(71% 0.149045 53),fill:#fae6d8,color:oklch(33% 0.029558 248)
+style Decision_Policy_Engi_07013e64 stroke:oklch(84% 0.141306 89),fill:#fcf3dc,color:oklch(33% 0.029558 248)
+style Denied_no_access_da46d815 stroke:oklch(60% 0.1775 16),fill:#f7dade,color:oklch(33% 0.029558 248)
+style Request_Gateway_Auth_69898261 stroke:oklch(68% 0.112508 184),fill:#d4efec,color:oklch(33% 0.029558 248)
+style Real_Server_approved_1ba8b884 stroke:oklch(68% 0.112508 184),fill:#d4efec,color:oklch(33% 0.029558 248)
+style Security_Analysis_En_ed5530b0 stroke:oklch(60% 0.2423 322),fill:#f2d7f6,color:oklch(33% 0.029558 248)
+style Honeypot_Environment_2eab995c stroke:oklch(60% 0.2423 322),fill:#f2d7f6,color:oklch(33% 0.029558 248)
+style Web_User_Application_e8d15202 stroke:oklch(61% 0.148288 249),fill:#d4e7f7,color:oklch(33% 0.029558 248)
+style Monitoring_Response__2f30f71e stroke:oklch(61% 0.148288 249),fill:#d4e7f7,color:oklch(33% 0.029558 248)
+linkStyle 0,1,2,3,4,5,6,7,8,9,10,11 stroke:oklch(62% 0.028346 248)

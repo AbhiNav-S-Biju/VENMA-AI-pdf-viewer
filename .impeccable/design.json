@@ -1,0 +1,656 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-31T15:22:16.773Z",
+  "title": "Design System: VENMA",
+  "extensions": {
+    "colorMeta": {
+      "mat": {
+        "role": "neutral",
+        "displayName": "Desk Mat",
+        "canonical": "#e9e1fb",
+        "cssVariable": "--mat",
+        "tonalRamp": [
+          "#414155",
+          "#68667b",
+          "#938fa6",
+          "#beb8d0",
+          "#ede7fc",
+          "#f3effd",
+          "#f8f6fe",
+          "#fcfbff"
+        ]
+      },
+      "mat-deep": {
+        "role": "neutral",
+        "displayName": "Deep Mat",
+        "canonical": "#d9ccf6",
+        "cssVariable": "--mat-deep",
+        "tonalRamp": [
+          "#3e3c54",
+          "#625e79",
+          "#8982a3",
+          "#b1a7cc",
+          "#e1d6f8",
+          "#eae3fa",
+          "#f4f0fc",
+          "#faf9fe"
+        ]
+      },
+      "ink": {
+        "role": "primary",
+        "displayName": "Desk Navy Ink",
+        "canonical": "#1f2340",
+        "cssVariable": "--ink",
+        "tonalRamp": [
+          "#15172c",
+          "#171a30",
+          "#1a1d36",
+          "#1c203b",
+          "#4c4f66",
+          "#848696",
+          "#bcbdc6",
+          "#e4e5e8"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "#4a4f72",
+        "cssVariable": "--ink-soft",
+        "tonalRamp": [
+          "#1e2137",
+          "#282c44",
+          "#343754",
+          "#3f4363",
+          "#6e728e",
+          "#9b9eb1",
+          "#c9cad5",
+          "#e9eaee"
+        ]
+      },
+      "bar": {
+        "role": "primary",
+        "displayName": "Desk Navy Bar",
+        "canonical": "#1f2340",
+        "cssVariable": "--bar",
+        "tonalRamp": [
+          "#15172c",
+          "#171a30",
+          "#1a1d36",
+          "#1c203b",
+          "#4c4f66",
+          "#848696",
+          "#bcbdc6",
+          "#e4e5e8"
+        ]
+      },
+      "bar-raised": {
+        "role": "primary",
+        "displayName": "Raised Navy",
+        "canonical": "#30355c",
+        "cssVariable": "--bar-raised",
+        "tonalRamp": [
+          "#191b32",
+          "#1e213c",
+          "#242846",
+          "#2a2e51",
+          "#595d7d",
+          "#8d90a5",
+          "#c1c2ce",
+          "#e6e7eb"
+        ]
+      },
+      "on-bar": {
+        "role": "neutral",
+        "displayName": "On-Bar White",
+        "canonical": "#ffffff",
+        "cssVariable": "--on-bar",
+        "tonalRamp": [
+          "#464856",
+          "#71727d",
+          "#a0a1a8",
+          "#d0d0d4",
+          "#ffffff",
+          "#ffffff",
+          "#ffffff",
+          "#ffffff"
+        ]
+      },
+      "on-bar-soft": {
+        "role": "neutral",
+        "displayName": "On-Bar Soft",
+        "canonical": "#cfcdea",
+        "cssVariable": "--on-bar-soft",
+        "tonalRamp": [
+          "#3c3d51",
+          "#5e5e74",
+          "#83839c",
+          "#a9a8c3",
+          "#d9d7ee",
+          "#e5e4f3",
+          "#f1f0f9",
+          "#f9f9fc"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#ffffff",
+        "cssVariable": "--paper",
+        "tonalRamp": [
+          "#464856",
+          "#71727d",
+          "#a0a1a8",
+          "#d0d0d4",
+          "#ffffff",
+          "#ffffff",
+          "#ffffff",
+          "#ffffff"
+        ]
+      },
+      "paper-line": {
+        "role": "neutral",
+        "displayName": "Paper Line",
+        "canonical": "#e6e1f3",
+        "cssVariable": "--paper-line",
+        "tonalRamp": [
+          "#414153",
+          "#676678",
+          "#918fa1",
+          "#bcb8ca",
+          "#ebe7f5",
+          "#f1eff8",
+          "#f8f6fb",
+          "#fcfbfe"
+        ]
+      },
+      "control-line": {
+        "role": "neutral",
+        "displayName": "Control Line",
+        "canonical": "#d9d2ee",
+        "cssVariable": null,
+        "tonalRamp": [
+          "#3e3e52",
+          "#626076",
+          "#89869e",
+          "#b1acc6",
+          "#e1dbf1",
+          "#eae6f6",
+          "#f4f2fa",
+          "#fafafd"
+        ]
+      },
+      "tint": {
+        "role": "neutral",
+        "displayName": "Lavender Tint",
+        "canonical": "#f3effd",
+        "cssVariable": "--tint",
+        "tonalRamp": [
+          "#444455",
+          "#6c6c7c",
+          "#9997a7",
+          "#c6c3d2",
+          "#f5f2fd",
+          "#f8f6fe",
+          "#fbfafe",
+          "#fefdff"
+        ]
+      },
+      "lavender": {
+        "role": "secondary",
+        "displayName": "VENMA Lavender",
+        "canonical": "#b9a3e8",
+        "cssVariable": "--lavender",
+        "tonalRamp": [
+          "#373351",
+          "#554d74",
+          "#766a9a",
+          "#9886c1",
+          "#c7b5ed",
+          "#d9ccf2",
+          "#eae3f8",
+          "#f7f4fc"
+        ]
+      },
+      "lavender-pressed": {
+        "role": "secondary",
+        "displayName": "Pressed Lavender",
+        "canonical": "#a68ee2",
+        "cssVariable": null,
+        "tonalRamp": [
+          "#332f4f",
+          "#4d4571",
+          "#6b5d97",
+          "#8876bc",
+          "#b8a5e8",
+          "#cec1ef",
+          "#e4ddf6",
+          "#f4f1fc"
+        ]
+      },
+      "lavender-deep": {
+        "role": "secondary",
+        "displayName": "Deep Lavender",
+        "canonical": "#6f54c4",
+        "cssVariable": "--lavender-deep",
+        "tonalRamp": [
+          "#262249",
+          "#372e65",
+          "#4a3a85",
+          "#5c47a4",
+          "#8c76d0",
+          "#b0a1df",
+          "#d4cced",
+          "#eeeaf8"
+        ]
+      },
+      "yellow": {
+        "role": "tertiary",
+        "displayName": "Highlighter Yellow",
+        "canonical": "#ffe45c",
+        "cssVariable": "--yellow",
+        "tonalRamp": [
+          "#464232",
+          "#71673c",
+          "#a09146",
+          "#d0ba51",
+          "#ffe97d",
+          "#fff0a5",
+          "#fff7ce",
+          "#fffceb"
+        ]
+      },
+      "yellow-pressed": {
+        "role": "tertiary",
+        "displayName": "Pressed Yellow",
+        "canonical": "#ffd92a",
+        "cssVariable": null,
+        "tonalRamp": [
+          "#463f27",
+          "#716328",
+          "#a08a28",
+          "#d0b229",
+          "#ffe155",
+          "#ffea8a",
+          "#fff4bf",
+          "#fffae5"
+        ]
+      },
+      "yellow-wash": {
+        "role": "tertiary",
+        "displayName": "Yellow Wash",
+        "canonical": "#fff7c9",
+        "cssVariable": "--yellow-wash",
+        "tonalRamp": [
+          "#46464a",
+          "#716f67",
+          "#a09c88",
+          "#d0caa8",
+          "#fff9d4",
+          "#fffbe1",
+          "#fffdef",
+          "#fffef9"
+        ]
+      },
+      "pink": {
+        "role": "tertiary",
+        "displayName": "Highlighter Pink",
+        "canonical": "#ff8fb8",
+        "cssVariable": "--pink",
+        "tonalRamp": [
+          "#462f46",
+          "#714560",
+          "#a05e7e",
+          "#d0769b",
+          "#ffa5c6",
+          "#ffc1d8",
+          "#ffddea",
+          "#fff2f6"
+        ]
+      },
+      "mint": {
+        "role": "tertiary",
+        "displayName": "Highlighter Mint",
+        "canonical": "#6ee0a8",
+        "cssVariable": "--mint",
+        "tonalRamp": [
+          "#264143",
+          "#37665a",
+          "#498e74",
+          "#5cb78e",
+          "#8be6b9",
+          "#afeecf",
+          "#d4f6e5",
+          "#eefbf5"
+        ]
+      },
+      "mint-wash": {
+        "role": "tertiary",
+        "displayName": "Mint Wash",
+        "canonical": "#ddf7ea",
+        "cssVariable": "--mint-wash",
+        "tonalRamp": [
+          "#3f4651",
+          "#636f74",
+          "#8c9c9c",
+          "#b4cac3",
+          "#e4f9ee",
+          "#ecfbf3",
+          "#f5fdf9",
+          "#fbfefc"
+        ]
+      },
+      "mint-ink": {
+        "role": "tertiary",
+        "displayName": "Mint Ink",
+        "canonical": "#146343",
+        "cssVariable": "--mint-ink",
+        "tonalRamp": [
+          "#12252c",
+          "#133432",
+          "#134337",
+          "#14533d",
+          "#438269",
+          "#7ea998",
+          "#b9d0c7",
+          "#e3ece8"
+        ]
+      },
+      "danger": {
+        "role": "neutral",
+        "displayName": "Danger",
+        "canonical": "#b4253e",
+        "cssVariable": "--danger",
+        "tonalRamp": [
+          "#36182b",
+          "#531b30",
+          "#731e34",
+          "#942239",
+          "#c35165",
+          "#d68795",
+          "#e9bec5",
+          "#f6e5e8"
+        ]
+      },
+      "danger-wash": {
+        "role": "neutral",
+        "displayName": "Danger Wash",
+        "canonical": "#ffe8ec",
+        "cssVariable": "--danger-wash",
+        "tonalRamp": [
+          "#464352",
+          "#716975",
+          "#a0939d",
+          "#d0bec4",
+          "#ffedf0",
+          "#fff2f5",
+          "#fff8f9",
+          "#fffcfd"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Empty-desk headline only."
+      },
+      "brand": {
+        "displayName": "Brand",
+        "purpose": "VENMA wordmark in the bar."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Loading and error panel titles."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Drawer, popup and note-editor headings (1.05-1.12rem)."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Answers and explanations; empty-desk copy runs 1.05rem / 1.6 at 38ch."
+      },
+      "body-small": {
+        "displayName": "Body Small",
+        "purpose": "Subtitles, banners, hints, popover copy."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons and controls; primary and page field at 800."
+      },
+      "chip": {
+        "displayName": "Chip",
+        "purpose": "Counters and source/model chips, tabular numerals."
+      }
+    },
+    "shadows": [
+      {
+        "name": "paper",
+        "value": "0 1px 2px rgba(31, 35, 64, 0.08), 0 14px 36px rgba(31, 35, 64, 0.14)",
+        "purpose": "Pages and panels resting on the mat."
+      },
+      {
+        "name": "lift",
+        "value": "0 2px 6px rgba(31, 35, 64, 0.1), 0 22px 48px rgba(31, 35, 64, 0.22)",
+        "purpose": "Floating surfaces (drawer, popovers, toolbars, notices, note editor) and the drag-over lift."
+      },
+      {
+        "name": "flag",
+        "value": "0 1px 2px rgba(31, 35, 64, 0.2), 0 4px 10px rgba(31, 35, 64, 0.12)",
+        "purpose": "Sticky flags and note flags."
+      },
+      {
+        "name": "held",
+        "value": "drop-shadow(0 14px 14px rgba(31, 35, 64, 0.22))",
+        "purpose": "VENMA while dragged (filter), with scale 1.05."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The motion grammar: every arrival and state change."
+      },
+      {
+        "name": "control-state",
+        "value": "160ms",
+        "purpose": "Button and control background, border and colour changes."
+      },
+      {
+        "name": "pop-in",
+        "value": "220-260ms",
+        "purpose": "Selection toolbar, AI popup, note editor rising 6px from 0.96 scale."
+      },
+      {
+        "name": "drawer-in",
+        "value": "320ms",
+        "purpose": "Assistant drawer rising 14px from bottom-right; also the drawer-reservation padding change."
+      },
+      {
+        "name": "flag-stick",
+        "value": "420ms",
+        "purpose": "Flags grow from the page edge (scaleX 0.2 to 1)."
+      },
+      {
+        "name": "passage-glow",
+        "value": "900ms",
+        "purpose": "Note passage lavender wash peaks at 0.75 and settles at 0.55 while open."
+      },
+      {
+        "name": "venma-idle",
+        "value": "3.2-3.6s ease-in-out loops",
+        "purpose": "VENMA breathing, head bob, shadow and tail sway; blinks every 2.5-6s, ear twitch every 4-10s (420ms)."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "still pose",
+        "purpose": "prefers-reduced-motion removes animation; VENMA holds still."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "900px",
+        "purpose": "Bar wraps, title hides, pages fit to width by default, drawer reservation drops to 44px, empty desk stacks."
+      },
+      {
+        "name": "phone",
+        "value": "600px",
+        "purpose": "Zoom and page total hide; Open/Export go icon-only."
+      }
+    ],
+    "layout": [
+      {
+        "name": "header-height",
+        "value": "64px"
+      },
+      {
+        "name": "drawer-reservation",
+        "value": "468px",
+        "purpose": "Right padding of the page scroll region while root data-drawer=\"open\" on wide screens."
+      },
+      {
+        "name": "drawer-width",
+        "value": "420px"
+      },
+      {
+        "name": "desk-padding",
+        "value": "36px 72px 120px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Button",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "Default paper control with a 1.5px control-line border.",
+      "html": "<button class=\"ds-btn\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 3.5h10a1 1 0 0 1 1 1v8l-4 4H5a1 1 0 0 1-1-1v-11a1 1 0 0 1 1-1z M12 16.5v-3a1 1 0 0 1 1-1h3 M7 7.5h6 M7 10.5h4\"/></svg>Copy response</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:36px;padding:0 14px;border-radius:10px;font-family:\"Nunito Variable\",ui-rounded,system-ui,sans-serif;font-size:.9rem;font-weight:700;cursor:pointer;transition:background 160ms cubic-bezier(.16,1,.3,1),border-color 160ms cubic-bezier(.16,1,.3,1),transform 160ms cubic-bezier(.16,1,.3,1);background:var(--paper,#fff);border:1.5px solid #d9d2ee;color:var(--ink,#1f2340)}.ds-btn:hover{background:var(--tint,#f3effd);border-color:var(--lavender,#b9a3e8)}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:3px solid var(--lavender-deep,#6f54c4);outline-offset:2px;}"
+    },
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Highlighter-yellow primary action (Open PDF, Save).",
+      "html": "<button class=\"ds-btn-primary\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3.5 6.5h5l1.5 2h6.5v7a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1z M10 10.5v4 M8 12.5l2-2 2 2\"/></svg>Open PDF</button>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:36px;padding:0 14px;border-radius:10px;font-family:\"Nunito Variable\",ui-rounded,system-ui,sans-serif;font-size:.9rem;font-weight:700;cursor:pointer;transition:background 160ms cubic-bezier(.16,1,.3,1),border-color 160ms cubic-bezier(.16,1,.3,1),transform 160ms cubic-bezier(.16,1,.3,1);background:var(--yellow,#ffe45c);border:1.5px solid var(--yellow,#ffe45c);color:var(--ink,#1f2340);font-weight:800}.ds-btn-primary:hover{background:#ffd92a;border-color:#ffd92a}.ds-btn-primary:active{transform:translateY(1px)}.ds-btn-primary:focus-visible{outline:3px solid var(--lavender-deep,#6f54c4);outline-offset:2px;}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Paper field with control-line border and deep-lavender focus ring.",
+      "html": "<input class=\"ds-input\" placeholder=\"Paste a PDF link\" />",
+      "css": ".ds-input{background:var(--paper,#fff);border:1.5px solid #d9d2ee;border-radius:10px;color:var(--ink,#1f2340);font-family:\"Nunito Variable\",ui-rounded,system-ui,sans-serif;font-size:.95rem;min-height:36px;padding:0 10px;width:260px}.ds-input::placeholder{color:#6b6889}.ds-input:focus-visible{outline:3px solid var(--lavender-deep,#6f54c4);outline-offset:2px;}"
+    },
+    {
+      "name": "App Bar",
+      "kind": "nav",
+      "refersTo": "app-bar",
+      "description": "Navy ink bar: brand, primary action, document name, page field, Export, settings.",
+      "html": "<header class=\"ds-bar\"><strong class=\"ds-bar__brand\">VENMA</strong><button class=\"ds-bar__primary\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3.5 6.5h5l1.5 2h6.5v7a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1z M10 10.5v4 M8 12.5l2-2 2 2\"/></svg>Open PDF</button><span class=\"ds-bar__doc\">Photosynthesis_Ch4.pdf</span><span class=\"ds-bar__group\"><button class=\"ds-bar__btn\" aria-label=\"Previous page\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5l-5 5 5 5\"/></svg></button><input class=\"ds-bar__page\" value=\"1\" aria-label=\"Page\"/><span class=\"ds-bar__total\">of 3</span><button class=\"ds-bar__btn\" aria-label=\"Next page\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8 5l5 5-5 5\"/></svg></button></span><button class=\"ds-bar__btn ds-bar__export\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M10 3.5v9 M6.5 9l3.5 3.5L13.5 9 M4 14.5v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-1\"/></svg>Export PDF</button><button class=\"ds-bar__btn\" aria-label=\"Settings\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M10 7.2a2.8 2.8 0 1 0 0 5.6 2.8 2.8 0 0 0 0-5.6z M10 2.8v2 M10 15.2v2 M2.8 10h2 M15.2 10h2 M4.9 4.9l1.4 1.4 M13.7 13.7l1.4 1.4 M4.9 15.1l1.4-1.4 M13.7 6.3l1.4-1.4\"/></svg></button></header>",
+      "css": ".ds-bar{display:flex;align-items:center;gap:18px;min-height:64px;padding:10px 20px;background:var(--bar,#1f2340);color:#fff;font-family:\"Nunito Variable\",ui-rounded,system-ui,sans-serif;}.ds-bar__brand{font-size:1.3rem;font-weight:900;letter-spacing:.04em}.ds-bar__doc{flex:1;font-weight:800;font-size:.98rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ds-bar__group{display:flex;align-items:center;gap:4px}.ds-bar__btn,.ds-bar__primary{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:36px;min-width:36px;padding:0 10px;border:0;border-radius:10px;background:transparent;color:#fff;font:inherit;font-size:.9rem;font-weight:700;cursor:pointer;transition:background 160ms cubic-bezier(.16,1,.3,1)}.ds-bar__btn:hover{background:var(--bar-raised,#30355c)}.ds-bar__btn:focus-visible,.ds-bar__primary:focus-visible,.ds-bar__page:focus-visible{outline:3px solid var(--yellow,#ffe45c);outline-offset:2px;}.ds-bar__primary{background:var(--yellow,#ffe45c);color:var(--ink,#1f2340);font-weight:800;padding:0 14px}.ds-bar__primary:hover{background:#ffd92a}.ds-bar__export{border:1.5px solid rgba(255,255,255,.18)}.ds-bar__page{width:52px;min-height:36px;border:0;border-radius:10px;background:var(--bar-raised,#30355c);color:#fff;text-align:center;font:inherit;font-weight:800;font-variant-numeric:tabular-nums}.ds-bar__total{color:var(--on-bar-soft,#cfcdea);font-size:.9rem;font-variant-numeric:tabular-nums}"
+    },
+    {
+      "name": "Source Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Pill chips naming answer source and model; live is mint, mock is yellow.",
+      "html": "<span class=\"ds-chip ds-chip--live\">Model output</span> <span class=\"ds-chip\">llama3.1 · Ollama</span> <span class=\"ds-chip ds-chip--mock\">Mock output</span>",
+      "css": ".ds-chip{display:inline-block;border-radius:999px;padding:3px 9px;background:var(--tint,#f3effd);color:var(--ink-soft,#4a4f72);font-family:\"Nunito Variable\",ui-rounded,system-ui,sans-serif;font-size:.76rem;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}.ds-chip--live{background:var(--mint-wash,#ddf7ea);color:var(--mint-ink,#146343)}.ds-chip--mock{background:var(--yellow-wash,#fff7c9);color:#6b5200}"
+    },
+    {
+      "name": "Assistant Action Tile",
+      "kind": "card",
+      "refersTo": "assistant-drawer",
+      "description": "Tint tile inside the drawer: 900 label over a soft hint.",
+      "html": "<button class=\"ds-tile\"><span class=\"ds-tile__label\">Give an example</span><span class=\"ds-tile__hint\">Explain the selection with one concrete example.</span></button>",
+      "css": ".ds-tile{display:grid;gap:2px;width:190px;padding:10px 12px;text-align:left;border:1.5px solid transparent;border-radius:12px;background:var(--tint,#f3effd);color:var(--ink,#1f2340);font-family:\"Nunito Variable\",ui-rounded,system-ui,sans-serif;cursor:pointer;transition:background 160ms cubic-bezier(.16,1,.3,1),border-color 160ms cubic-bezier(.16,1,.3,1)}.ds-tile:hover{background:#e7defb;border-color:var(--lavender,#b9a3e8)}.ds-tile:focus-visible{outline:3px solid var(--lavender-deep,#6f54c4);outline-offset:2px;}.ds-tile__label{font-weight:900;font-size:.9rem}.ds-tile__hint{color:var(--ink-soft,#4a4f72);font-size:.78rem;font-weight:600;line-height:1.3}"
+    },
+    {
+      "name": "Selection Toolbar",
+      "kind": "custom",
+      "refersTo": "selection-toolbar",
+      "description": "Navy toolbar over a selection: three highlighter swatches, divider, Add note, close.",
+      "html": "<div class=\"ds-seltb\"><button class=\"ds-seltb__sw\" style=\"background:#ffe45c\" aria-label=\"Yellow highlight\"></button><button class=\"ds-seltb__sw\" style=\"background:#6ee0a8\" aria-label=\"Green highlight\"></button><button class=\"ds-seltb__sw\" style=\"background:#ff8fb8\" aria-label=\"Pink highlight\"></button><span class=\"ds-seltb__div\"></span><button class=\"ds-seltb__btn\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 3.5h10a1 1 0 0 1 1 1v8l-4 4H5a1 1 0 0 1-1-1v-11a1 1 0 0 1 1-1z M12 16.5v-3a1 1 0 0 1 1-1h3 M7 7.5h6 M7 10.5h4\"/></svg>Add note</button><button class=\"ds-seltb__btn\" aria-label=\"Close\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5.5 5.5l9 9 M14.5 5.5l-9 9\"/></svg></button></div>",
+      "css": ".ds-seltb{display:inline-flex;align-items:center;gap:6px;padding:6px;border-radius:14px;background:var(--ink,#1f2340);box-shadow:0 2px 6px rgba(31,35,64,.1),0 22px 48px rgba(31,35,64,.22);font-family:\"Nunito Variable\",ui-rounded,system-ui,sans-serif;animation:ds-pop 220ms cubic-bezier(.16,1,.3,1) both}.ds-seltb__sw{width:28px;height:28px;border-radius:50%;border:2px solid rgba(255,255,255,.9);padding:0;cursor:pointer;transition:transform 160ms cubic-bezier(.16,1,.3,1)}.ds-seltb__sw:hover{border-color:#fff;transform:scale(1.12)}.ds-seltb__sw:focus-visible,.ds-seltb__btn:focus-visible{outline:3px solid var(--yellow,#ffe45c);outline-offset:2px;}.ds-seltb__div{width:1px;height:22px;margin:0 2px;background:rgba(255,255,255,.18)}.ds-seltb__btn{display:inline-flex;align-items:center;gap:6px;min-height:32px;min-width:32px;padding:0 10px;border:0;border-radius:10px;background:transparent;color:#fff;font:inherit;font-size:.9rem;font-weight:700;cursor:pointer}.ds-seltb__btn:hover{background:var(--bar-raised,#30355c)}@keyframes ds-pop{from{opacity:0;transform:translateY(6px) scale(.96)}to{opacity:1;transform:none}}"
+    },
+    {
+      "name": "Page With Flags",
+      "kind": "custom",
+      "refersTo": "annotation-flag",
+      "description": "White page on the mat with one sticky flag per annotation on its right edge; the open VENMA note lights its passage lavender.",
+      "html": "<div class=\"ds-desk\"><div class=\"ds-page\"><p><mark class=\"ds-hl ds-hl--y\">The light-dependent reactions</mark> occur in the thylakoid.</p><p><mark class=\"ds-hl ds-hl--m\">Electrons travel along a chain</mark> embedded in the membrane.</p><p><mark class=\"ds-hl ds-hl--n\">ATP synthase lets protons flow back</mark> out.</p><span class=\"ds-flag\" style=\"top:18px;background:#ffe45c\"></span><span class=\"ds-flag\" style=\"top:52px;background:#6ee0a8\"></span><button class=\"ds-noteflag\" style=\"top:84px\" aria-pressed=\"true\" aria-label=\"VENMA note\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 20 20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M10 3l1.6 4.4L16 9l-4.4 1.6L10 15l-1.6-4.4L4 9l4.4-1.6z\"/></svg></button></div></div>",
+      "css": ".ds-desk{background:var(--mat,#e9e1fb);padding:24px 60px 24px 24px;font-family:\"Nunito Variable\",ui-rounded,system-ui,sans-serif;}.ds-page{position:relative;width:300px;padding:16px 18px;background:#fff;border-radius:2px;box-shadow:0 1px 2px rgba(31,35,64,.08),0 14px 36px rgba(31,35,64,.14);font-family:Georgia,serif;font-size:.8rem;color:#222}.ds-page p{margin:0 0 14px}.ds-hl{color:inherit;mix-blend-mode:multiply}.ds-hl--y{background:rgba(255,224,74,.5)}.ds-hl--m{background:rgba(94,220,160,.38)}.ds-hl--n{background:rgba(185,163,232,.55)}.ds-flag,.ds-noteflag{position:absolute;left:100%;margin-left:1px;border-radius:0 7px 7px 0;box-shadow:0 1px 2px rgba(31,35,64,.2),0 4px 10px rgba(31,35,64,.12);transform-origin:left center;animation:ds-stick 420ms cubic-bezier(.16,1,.3,1) both}.ds-flag{width:28px;height:22px}.ds-noteflag{display:flex;align-items:center;justify-content:flex-end;width:42px;height:26px;padding:0 8px 0 0;border:0;background:var(--lavender,#b9a3e8);color:var(--ink,#1f2340);cursor:pointer;transition:translate 180ms cubic-bezier(.16,1,.3,1),background 160ms cubic-bezier(.16,1,.3,1)}.ds-noteflag:hover,.ds-noteflag[aria-pressed=true]{background:#a68ee2;translate:5px 0}.ds-noteflag:focus-visible{outline:3px solid var(--lavender-deep,#6f54c4);outline-offset:2px;}@keyframes ds-stick{from{opacity:0;transform:scaleX(.2)}to{opacity:1;transform:scaleX(1)}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Study Desk",
+    "overview": "VENMA is a reading desk, not a reader-with-sidebar. A lavender desk mat fills the window, a navy ink bar runs across the top, and the PDF sits on the mat as a sheet of white paper with soft shadows under it. Everything the reader adds behaves like a desk object: highlighter strokes on the page, sticky flags stuck to the page's right edge, a note that lights its passage while open. VENMA, the cat, lives on the mat bottom-right, breathing and watching the pointer, and opens a white answer drawer above itself.\n\nDensity is calm and generous: one page centred, one drawer, one floating toolbar at a time. Colour is rationed by job. Lavender belongs to VENMA, navy to the tools, white to paper, and only three highlighter hues may mark the reader's text. Type is one rounded family (Nunito) carried from the 900-weight empty-state headline down to tabular chip counters, so the whole surface reads as friendly and of a piece.\n\nMotion is exponential ease-out everywhere a thing arrives (flags stick, toolbars pop, the drawer rises), and VENMA has its own body language: breathing, irregular blinks and ear twitches, a tail sway, and posed moods. Reduced motion holds every one of them still.",
+    "keyCharacteristics": [
+      "Lavender mat, navy bar, white paper: three grounds, never more.",
+      "Annotations are physical: highlighter ink on the page, flags on its right edge, one flag per annotation.",
+      "Lavender is VENMA's colour and lights a note passage only while that note is open.",
+      "One rounded typeface (Nunito Variable) at heavy weights for headings, 700 for controls.",
+      "Soft neutral navy shadows, paper-on-a-mat; no hard offsets, no glow.",
+      "Exponential ease-out (`cubic-bezier(0.16, 1, 0.3, 1)`) is the motion grammar."
+    ],
+    "rules": [
+      {
+        "name": "The One Job Per Hue Rule",
+        "body": "Lavender is VENMA and its note passages; yellow, mint and pink are the only highlight and flag hues; navy is tools and type. A new feature borrows a hue only for that hue's existing job.",
+        "section": "colors"
+      },
+      {
+        "name": "The Lit-While-Open Rule",
+        "body": "A note passage's lavender wash is at 0% at rest and fades to 55% only while its explanation is open. At rest the flag alone marks the note.",
+        "section": "colors"
+      },
+      {
+        "name": "The Navy Selection Rule",
+        "body": "Live text selection on the page is a navy tint (`rgba(31, 35, 64, 0.2)`) so it never reads as a lavender note passage or a highlight.",
+        "section": "colors"
+      },
+      {
+        "name": "The Weight Not Yellow Rule",
+        "body": "Answers emphasise with weight (900) in ink, never with highlighter yellow. Yellow on the page means the reader marked it.",
+        "section": "colors"
+      },
+      {
+        "name": "The Heavy Names Rule",
+        "body": "Headings and names are 900 (small in-popup section labels sit at 800 in soft ink); nothing is set in a second family.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Counter Rule",
+        "body": "Page numbers, page totals, zoom percentage, character counts and tables use tabular numerals.",
+        "section": "typography"
+      },
+      {
+        "name": "The Paper-On-Mat Rule",
+        "body": "Shadows are always navy-tinted and soft. Rest gets Paper, floating gets Lift; no third card level, no coloured glow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep lavender for VENMA, its note flags and its open note passage; light the passage (55% multiply) only while the note is open.",
+      "**Do** limit highlight and flag hues to yellow, mint and pink, and give every annotation exactly one flag on the page's right edge.",
+      "**Do** tint live text selection navy (`rgba(31, 35, 64, 0.2)`).",
+      "**Do** emphasise answers with 900-weight ink, never yellow.",
+      "**Do** float tools in navy and dialogs in paper, with the Lift shadow; rest everything else on the mat with the Paper shadow.",
+      "**Do** animate arrivals with `cubic-bezier(0.16, 1, 0.3, 1)` (160ms for control states, 220–320ms for toolbars and the drawer, 420ms for flags) and honour reduced motion with a still pose.",
+      "**Do** reserve 468px for the open drawer on wide screens so the page and its flags stay visible beside the answer.",
+      "**Do** fit pages to width by default at ≤900px, and at ≤600px hide zoom and make Open/Export icon-only.",
+      "**Do** label every answer with its source (live or mock) and its model."
+    ],
+    "donts": [
+      "**Don't** use lavender for highlights, selection, or decoration unrelated to VENMA.",
+      "**Don't** add a fourth highlighter hue or a second accent.",
+      "**Don't** mark answers or AI output with highlighter yellow.",
+      "**Don't** use hard offset shadows, coloured glows, or a third elevation level.",
+      "**Don't** introduce a second typeface or set titles and headings below 900 weight.",
+      "**Don't** let a floating surface cover the page's flags when the drawer is open on a wide screen."
+    ]
+  }
+}

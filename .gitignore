@@ -1,0 +1,29 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Secrets: API keys and private endpoints live only in .env (see .env.example)
+.env
+.env.*
+!.env.example
+*.local.json
+*.pem
+*.key
+
+# Editor and assistant settings (can hold personal keys or paths)
+.vscode/
+.idea/
+.claude/
+.copilot-azure/
+
+# Local design-tool scratch (screenshots, decision rounds, caches with local paths)
+.impeccable/review/
+.impeccable/questions/
+.impeccable/mocks/
+.impeccable/hook.cache.json
+
+# Logs and OS clutter
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "VENMA PDF Workspace",
+  "description": "A local-first PDF workspace with annotations, AI placeholders, and VENMA the cat.",
+  "version": "0.1.0",
+  "action": {
+    "default_title": "Open VENMA PDF Workspace"
+  },
+  "background": {
+    "service_worker": "assets/background.js",
+    "type": "module"
+  }
+}
